@@ -1,0 +1,531 @@
+
+.FLASH {
+  background-color: rgba(255, 132, 0, 0.86);
+  height: 55px;
+  /* position: fixed; */
+  position: relative;
+  box-sizing: border-box;
+  
+  
+}
+.FLASH img {
+  width: 95%;
+  padding-left: 150px;
+  box-sizing: border-box;
+  
+}
+.logo-ling {
+  width: 100%;
+  box-sizing: border-box;
+
+}
+.text {
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  text-align: right;
+  background-color: rgb(245, 255, 255);
+  width: 100%;
+  height: 50px;
+  color: #483f3f;
+  border: 10px rgb(222, 212, 212) solid;
+  cursor: pointer;
+ position: fixed;
+
+}
+.JUMLA {
+  background-color: blueviolet;
+
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  text-align: left;
+  box-sizing: border-box;
+
+}
+.search-input {
+  width: 40%;
+  direction: rtl;
+  box-sizing: border-box;
+
+}
+
+.search-icon {
+  padding: 20px;
+  /* width: 50px;
+    height: 50px; */
+  border-radius: 5px;
+  /* margin: 10px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(244, 161, 17);
+  cursor: pointer;
+  border-radius: 10px;
+  box-sizing: border-box;
+
+}
+.material-symbols-outlined:hover {
+  background-color: rgb(238, 180, 8);
+  box-sizing: border-box;
+
+}
+
+.img {
+  height: 5px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 90px;
+  cursor: pointer;
+  box-sizing: border-box;
+
+}
+.address {
+  width: 20%;
+  position: relative;
+  bottom: 90px;
+  left: 60px;
+  margin: 90px;
+  /* padding: 5px; */
+  width: 120px;
+  height: 200px;
+  /* line-height: 20px; */
+  background-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+
+  
+}
+.search {
+  position: relative;
+  bottom: 400px;
+  text-align: right;
+  margin: 90px;
+
+  height: 400px;
+  /* background-color: aqua; */
+  box-sizing: border-box;
+  
+
+}
+.shop-images {
+  width: 80%;
+  height: 100px;
+  justify-content: space-around;
+  display: flex;
+  position: relative;
+  left: 120px;
+  bottom: 500px;
+  box-sizing: border-box;
+
+}
+/* .shop-link {
+    
+    justify-content: space-around;
+    border-radius: 1px;
+    
+} */
+
+.shop-link img {
+  width: 100px;
+  height: 100px;
+  border-radius: 4px;
+  object-fit: cover;
+  box-sizing: border-box;
+  
+}
+.png {
+  text-align: right;
+  position: relative;
+  bottom: 80px;
+  right: 10px;
+  box-sizing: border-box;
+
+  
+}
+.png1 {
+    text-align: right;
+  position: relative;
+  bottom: 80px;
+  right: 45px;
+  box-sizing: border-box;
+
+}
+.png4 {
+    text-align: right;
+    position: relative;
+    bottom: 80px;
+    position: relative;
+    right: 40px;
+    box-sizing: border-box;
+
+}
+
+.xlaoml {
+position: relative;
+bottom: 480px;
+left: 70px;
+box-sizing: border-box;
+
+}
+.sales {
+  height: 200px;
+  width: 200px;
+  position: relative;
+  bottom: 400px;
+  left: 60px;
+  border-radius: 4px;
+  object-fit: cover;
+  display: flex;
+  box-sizing: border-box;
+cursor: pointer;
+}
+.sales image {
+  cursor: pointer;
+  text-align: right;
+  position: relative;
+  bottom: 80px;
+  right: 10px;
+
+}
+.nu {
+  padding: 5px;
+  background-color: rgb(215, 180, 180);
+  width: 30px;
+  position: relative;
+  bottom: 580px;
+  left:70px;
+  color: rgb(221, 149, 42);
+  box-sizing: border-box;
+
+}
+
+.footer-title {
+  width: 86%;
+  height: 40px;
+  position: relative;
+  bottom: 840px;
+  left : 80px;
+  text-decoration: none;
+  background: rgb(255, 205, 205);
+  font-size: 20px;
+  cursor: pointer;
+  box-sizing: border-box;
+
+}
+.ag {
+  position: relative;
+  left: 85%;
+  bottom: 880px;
+  font-size: 20px;
+  cursor: pointer;
+  box-sizing: border-box;
+
+}
+.m {
+  padding: 5px;
+  background-color: rgb(215, 180, 180);
+  width: 30px;
+  position: relative;
+  bottom: 610px;
+  left:280px;
+  color: rgb(221, 149, 42);
+  box-sizing: border-box;
+
+}
+.b {
+  padding: 5px;
+  background-color: rgb(215, 180, 180);
+  width: 30px;
+  position: relative;
+  bottom: 640px;
+  left:500px;
+  color: rgb(221, 149, 42);
+  box-sizing: border-box;
+
+}
+.r {
+  padding: 5px;
+  background-color: rgb(215, 180, 180);
+  width: 30px;
+  position: relative;
+  bottom: 670px;
+  left:700px;
+  color: rgb(221, 149, 42);
+  box-sizing: border-box;
+
+}
+.u {
+  padding: 5px;
+  background-color: rgb(215, 180, 180);
+  width: 30px;
+  position: relative;
+  bottom: 700px;
+  left:890px;
+  color: rgb(221, 149, 42);
+  box-sizing: border-box;
+
+}
+.a {
+  padding: 5px;
+  background-color: rgb(215, 180, 180);
+  width: 30px;
+  position: relative;
+  bottom: 724px;
+  left:80%;
+  color: rgb(221, 149, 42);
+  box-sizing: border-box;
+
+}
+.banner-content {
+  position: relative;
+  bottom: 500px;
+  left: 90px;
+  box-sizing: border-box;
+
+  
+}
+.Buy {
+  position: relative;
+  bottom: 550px;
+  left: 40%;
+  font-size: 25px;
+  background-color: rgb(248, 248, 248);
+  box-sizing: border-box;
+
+}
+.Offers {
+ 
+  position: relative;
+  bottom: 500px;
+  left: 90px;
+  box-sizing: border-box;
+
+ 
+}
+.foo-tn {
+  
+  height: 50px;
+  position: relative;
+  bottom: 470px;
+  left: 100px;
+  background-color: rgb(187, 148, 148);
+  font-size: 25px;
+  box-sizing: border-box;
+
+}
+.adidas {
+  position: relative;
+  bottom: 520px;
+ right: 80px;
+ direction: rtl;
+ font-size: 25px;
+ box-sizing: border-box;
+
+}
+.Sales {
+  width: 100%;
+  height: 50px;
+  position: relative;
+  bottom: 400px;
+  left: 70px;
+  font-size: 25px;
+  background-color: rgb(224, 19, 19);
+  box-sizing: border-box;
+cursor: pointer;
+}
+.Flash {
+  position: relative;
+  bottom: 450px;
+  right: 10%;
+  direction: rtl;
+  font-size: 25px;
+  box-sizing: border-box;
+
+}
+.Pride {
+  position: relative;
+  bottom: 530px;
+  box-sizing: border-box;
+height: 50px;
+ 
+  font-size: 25px;
+  background-color: rgb(243, 207, 185);
+}
+.beauty {
+  position: relative;
+  bottom: 500px;
+  left: 3%;
+  box-sizing: border-box;
+
+}
+.rival {
+  display: flex;
+  box-sizing: border-box;
+
+}
+.Forfashion {
+  width: 95%;
+  position: relative;
+  bottom: 450px;
+  left: 40%;
+   font-size: 25px;
+  color: rgb(94, 103, 111);
+  box-sizing: border-box;
+
+}
+.rival {
+  position: relative;
+  bottom: 420px;
+  left: 4%;
+  box-sizing: border-box;
+
+}
+.Sales2 {
+  position: relative;
+  bottom: 400px;
+  left: 50px;
+  font-size: 25px;
+  background-color: rgb(255, 226, 206);
+  height: 50px;
+  box-sizing: border-box;
+cursor: pointer;
+}
+.Flash2 {
+  position: relative;
+  bottom: 450px;
+  left: 80%;
+  font-size: 25px;
+  box-sizing: border-box;
+}
+.Forbeautyproducts {
+  position: relative;
+  bottom: 550px;
+  left: 45%;
+  font-size: 25px;
+  box-sizing: border-box;
+ 
+  
+}
+.beauty {
+ 
+ 
+  position: relative;
+  left: 5%;
+  cursor: pointer;
+}
+  
+.electrical {
+  justify-content: space-around;
+  display: flex;
+  height: 200px;
+  position: relative;
+  bottom: 500px;
+  left: 2%;
+  cursor: pointer;
+}
+.Fordevices {
+  position: relative;
+  bottom: 530px;
+  left: 50px;
+  font-size: 25px;
+  background-color: rgb(255, 226, 206);
+  height: 50px;
+  
+  cursor: pointer;
+}
+.Xiaomi {
+  position: relative;
+  bottom: 450px;
+  left: 40%;
+  font-size: 25px;
+  color: rgb(0, 0, 0);;
+}
+.oppo {
+  justify-content: space-around;
+  position: relative;
+  bottom: 400px;
+  left: 6%;
+  cursor: pointer;
+}
+.Offers {
+  cursor: pointer;
+}
+.Formations {
+  position: relative;
+  bottom: 700px;
+  left: 40%;
+  font-size: 25px;
+}
+.Shops {
+  position: relative;
+  bottom: 400px;
+  left: 40%;
+  font-size: 25px;
+}
+.invoice{
+  position: relative;
+  bottom: 390px;
+  left: 5%;
+}
+.Products {
+  position: relative;
+  bottom: 380px;
+  left: 5%;
+  font-size: 20px;
+  background-color: rgb(255, 226, 206);
+  height: 50px;
+}
+
+
+.footer-title0 {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  background-color: #3d3b33fe;
+  color: #110f0f;
+  font-size: 0.975rem;
+  font-weight: 600;
+  height: 300px;
+  position: relative;
+  bottom: 500px;
+  cursor: pointer;
+}
+.footer-items {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 400px;
+  margin: 0 auto;
+  background: #e18012;
+  
+  text-decoration: none;
+  position: relative;
+  bottom: 500px;
+}
+.footer-items h3 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #c0a5a5;
+  margin: 20px 0 10px 0;
+}
+
+.footer-items ul li {
+  list-style: none;
+  margin-bottom: 20px;
+  font-weight: 500;
+  color: #e18012;
+  justify-content: space-around;
+    
+}
+.foonter-items ul li a {
+  clear: #e9dfdf;
+  
+  font-size: 0.875rem;
+color: #cd0000;
+}
+.foonter-items ul a:hover {
+  text-decoration: underline;
+}
+
+
